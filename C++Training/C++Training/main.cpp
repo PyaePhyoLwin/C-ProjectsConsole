@@ -54,11 +54,11 @@ int main(int argc, char **argv)
 //    cout << vector1.at(1) << endl;
 
     int money {0};
-    int dollar {100};
-    int quarter {25};
-    int dime {10};
-    int nickel {5};
-    int penny {1};
+    const int dollar {100};
+    const int quarter {25};
+    const int dime {10};
+    const int nickel {5};
+    const int penny {1};
     
     cout << "Enter your amount in cents: ";
     cin >> money;
